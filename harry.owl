@@ -1,0 +1,724 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/kuro/ontologies/2016/3/untitled-ontology-25"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/kuro/ontologies/2016/3/untitled-ontology-25">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#female"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#half_blood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hogwarts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#male"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#muggle_blood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pure_blood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#student"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wizard"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#affraid_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#child_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#founder_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#friend_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_child"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_pet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#killed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#student_of"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arthur_Weasly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bellatrix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dean_Thomas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Draco_Malfoy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dumbledore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Godric"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Granger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Griffindor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Harry_Potter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hermione"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hogwarts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#James_Potter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lilly_Potter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lucius_Malfoy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Merope_Gaunt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Molly_Weasly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ms.Granger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Myrtle_Warren"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Narsisa_Malfoy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Penolope_Clearwater"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ron_weasly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Salazar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Slytherin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Snape"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tom_Riddle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tom_Ridle_Sir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Volder_Mort"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#eagle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#owl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rat"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#female"/>
+        <Class IRI="#person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#half_blood"/>
+        <Class IRI="#wizard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#male"/>
+        <Class IRI="#person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#muggle_blood"/>
+        <Class IRI="#wizard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pure_blood"/>
+        <Class IRI="#wizard"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#male"/>
+        <NamedIndividual IRI="#Arthur_Weasly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pure_blood"/>
+        <NamedIndividual IRI="#Arthur_Weasly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#female"/>
+        <NamedIndividual IRI="#Bellatrix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pure_blood"/>
+        <NamedIndividual IRI="#Bellatrix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#half_blood"/>
+        <NamedIndividual IRI="#Dean_Thomas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#male"/>
+        <NamedIndividual IRI="#Dean_Thomas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#student"/>
+        <NamedIndividual IRI="#Dean_Thomas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#male"/>
+        <NamedIndividual IRI="#Draco_Malfoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pure_blood"/>
+        <NamedIndividual IRI="#Draco_Malfoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#student"/>
+        <NamedIndividual IRI="#Draco_Malfoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#male"/>
+        <NamedIndividual IRI="#Dumbledore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pure_blood"/>
+        <NamedIndividual IRI="#Dumbledore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#male"/>
+        <NamedIndividual IRI="#Godric"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pure_blood"/>
+        <NamedIndividual IRI="#Godric"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#male"/>
+        <NamedIndividual IRI="#Granger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#hogwarts"/>
+        <NamedIndividual IRI="#Griffindor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#half_blood"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#male"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#student"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#female"/>
+        <NamedIndividual IRI="#Hermione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#muggle_blood"/>
+        <NamedIndividual IRI="#Hermione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#student"/>
+        <NamedIndividual IRI="#Hermione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#hogwarts"/>
+        <NamedIndividual IRI="#Hogwarts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#male"/>
+        <NamedIndividual IRI="#James_Potter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pure_blood"/>
+        <NamedIndividual IRI="#James_Potter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#female"/>
+        <NamedIndividual IRI="#Lilly_Potter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#muggle_blood"/>
+        <NamedIndividual IRI="#Lilly_Potter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#male"/>
+        <NamedIndividual IRI="#Lucius_Malfoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pure_blood"/>
+        <NamedIndividual IRI="#Lucius_Malfoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#female"/>
+        <NamedIndividual IRI="#Merope_Gaunt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pure_blood"/>
+        <NamedIndividual IRI="#Merope_Gaunt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#female"/>
+        <NamedIndividual IRI="#Molly_Weasly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pure_blood"/>
+        <NamedIndividual IRI="#Molly_Weasly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#female"/>
+        <NamedIndividual IRI="#Ms.Granger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#female"/>
+        <NamedIndividual IRI="#Myrtle_Warren"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#muggle_blood"/>
+        <NamedIndividual IRI="#Myrtle_Warren"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#female"/>
+        <NamedIndividual IRI="#Narsisa_Malfoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pure_blood"/>
+        <NamedIndividual IRI="#Narsisa_Malfoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#female"/>
+        <NamedIndividual IRI="#Penolope_Clearwater"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#muggle_blood"/>
+        <NamedIndividual IRI="#Penolope_Clearwater"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#male"/>
+        <NamedIndividual IRI="#Ron_weasly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pure_blood"/>
+        <NamedIndividual IRI="#Ron_weasly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#student"/>
+        <NamedIndividual IRI="#Ron_weasly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#male"/>
+        <NamedIndividual IRI="#Salazar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pure_blood"/>
+        <NamedIndividual IRI="#Salazar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#hogwarts"/>
+        <NamedIndividual IRI="#Slytherin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#half_blood"/>
+        <NamedIndividual IRI="#Snape"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#male"/>
+        <NamedIndividual IRI="#Snape"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#half_blood"/>
+        <NamedIndividual IRI="#Tom_Riddle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#male"/>
+        <NamedIndividual IRI="#Tom_Riddle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#male"/>
+        <NamedIndividual IRI="#Tom_Ridle_Sir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pure_blood"/>
+        <NamedIndividual IRI="#Tom_Ridle_Sir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#half_blood"/>
+        <NamedIndividual IRI="#Volder_Mort"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#male"/>
+        <NamedIndividual IRI="#Volder_Mort"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pet"/>
+        <NamedIndividual IRI="#cat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pet"/>
+        <NamedIndividual IRI="#eagle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pet"/>
+        <NamedIndividual IRI="#owl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pet"/>
+        <NamedIndividual IRI="#rat"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#Tom_Riddle"/>
+        <NamedIndividual IRI="#Volder_Mort"/>
+    </SameIndividual>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_child"/>
+        <NamedIndividual IRI="#Arthur_Weasly"/>
+        <NamedIndividual IRI="#Ron_weasly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#affraid_of"/>
+        <NamedIndividual IRI="#Dean_Thomas"/>
+        <NamedIndividual IRI="#eagle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#child_of"/>
+        <NamedIndividual IRI="#Draco_Malfoy"/>
+        <NamedIndividual IRI="#Narsisa_Malfoy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#child_of"/>
+        <NamedIndividual IRI="#Draco_Malfoy"/>
+        <NamedIndividual IRI="#Lucius_Malfoy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_pet"/>
+        <NamedIndividual IRI="#Draco_Malfoy"/>
+        <NamedIndividual IRI="#eagle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#student_of"/>
+        <NamedIndividual IRI="#Draco_Malfoy"/>
+        <NamedIndividual IRI="#Hogwarts"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friend_of"/>
+        <NamedIndividual IRI="#Dumbledore"/>
+        <NamedIndividual IRI="#Ron_weasly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friend_of"/>
+        <NamedIndividual IRI="#Dumbledore"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friend_of"/>
+        <NamedIndividual IRI="#Dumbledore"/>
+        <NamedIndividual IRI="#Hermione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#founder_of"/>
+        <NamedIndividual IRI="#Godric"/>
+        <NamedIndividual IRI="#Griffindor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_child"/>
+        <NamedIndividual IRI="#Granger"/>
+        <NamedIndividual IRI="#Hermione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#child_of"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+        <NamedIndividual IRI="#Lilly_Potter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#child_of"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+        <NamedIndividual IRI="#James_Potter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_pet"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+        <NamedIndividual IRI="#owl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#killed"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+        <NamedIndividual IRI="#Volder_Mort"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#student_of"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+        <NamedIndividual IRI="#Hogwarts"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#child_of"/>
+        <NamedIndividual IRI="#Hermione"/>
+        <NamedIndividual IRI="#Granger"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#child_of"/>
+        <NamedIndividual IRI="#Hermione"/>
+        <NamedIndividual IRI="#Ms.Granger"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friend_of"/>
+        <NamedIndividual IRI="#Hermione"/>
+        <NamedIndividual IRI="#Ron_weasly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friend_of"/>
+        <NamedIndividual IRI="#Hermione"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_pet"/>
+        <NamedIndividual IRI="#Hermione"/>
+        <NamedIndividual IRI="#cat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#student_of"/>
+        <NamedIndividual IRI="#Hermione"/>
+        <NamedIndividual IRI="#Hogwarts"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_child"/>
+        <NamedIndividual IRI="#James_Potter"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_child"/>
+        <NamedIndividual IRI="#Lilly_Potter"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_child"/>
+        <NamedIndividual IRI="#Lucius_Malfoy"/>
+        <NamedIndividual IRI="#Draco_Malfoy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_child"/>
+        <NamedIndividual IRI="#Merope_Gaunt"/>
+        <NamedIndividual IRI="#Tom_Riddle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_child"/>
+        <NamedIndividual IRI="#Molly_Weasly"/>
+        <NamedIndividual IRI="#Ron_weasly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_child"/>
+        <NamedIndividual IRI="#Ms.Granger"/>
+        <NamedIndividual IRI="#Hermione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friend_of"/>
+        <NamedIndividual IRI="#Myrtle_Warren"/>
+        <NamedIndividual IRI="#Snape"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_child"/>
+        <NamedIndividual IRI="#Narsisa_Malfoy"/>
+        <NamedIndividual IRI="#Draco_Malfoy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#affraid_of"/>
+        <NamedIndividual IRI="#Penolope_Clearwater"/>
+        <NamedIndividual IRI="#rat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#child_of"/>
+        <NamedIndividual IRI="#Ron_weasly"/>
+        <NamedIndividual IRI="#Molly_Weasly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#child_of"/>
+        <NamedIndividual IRI="#Ron_weasly"/>
+        <NamedIndividual IRI="#Arthur_Weasly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friend_of"/>
+        <NamedIndividual IRI="#Ron_weasly"/>
+        <NamedIndividual IRI="#Hermione"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friend_of"/>
+        <NamedIndividual IRI="#Ron_weasly"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_pet"/>
+        <NamedIndividual IRI="#Ron_weasly"/>
+        <NamedIndividual IRI="#rat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#student_of"/>
+        <NamedIndividual IRI="#Ron_weasly"/>
+        <NamedIndividual IRI="#Hogwarts"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#founder_of"/>
+        <NamedIndividual IRI="#Salazar"/>
+        <NamedIndividual IRI="#Slytherin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friend_of"/>
+        <NamedIndividual IRI="#Snape"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friend_of"/>
+        <NamedIndividual IRI="#Snape"/>
+        <NamedIndividual IRI="#Dumbledore"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#child_of"/>
+        <NamedIndividual IRI="#Tom_Riddle"/>
+        <NamedIndividual IRI="#Merope_Gaunt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#child_of"/>
+        <NamedIndividual IRI="#Tom_Riddle"/>
+        <NamedIndividual IRI="#Tom_Ridle_Sir"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#killed"/>
+        <NamedIndividual IRI="#Tom_Riddle"/>
+        <NamedIndividual IRI="#Lilly_Potter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#killed"/>
+        <NamedIndividual IRI="#Tom_Riddle"/>
+        <NamedIndividual IRI="#James_Potter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_child"/>
+        <NamedIndividual IRI="#Tom_Ridle_Sir"/>
+        <NamedIndividual IRI="#Tom_Riddle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#child_of"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#founder_of"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#friend_of"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_child"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_pet"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_a"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#killed"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#student_of"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#child_of"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#founder_of"/>
+        <Class IRI="#hogwarts"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#friend_of"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_child"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_pet"/>
+        <Class IRI="#pet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_a"/>
+        <Class IRI="#wizard"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#killed"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#student_of"/>
+        <Class IRI="#hogwarts"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
